@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Main {
-    public static void main(string[] args){
+    public static void main(String[] args){
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the brand of the car:");
         String brand=s.nextLine();
