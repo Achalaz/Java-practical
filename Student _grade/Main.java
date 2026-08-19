@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
+        Student student=new Student();
         System.out.println("Enter the name of the student:");
         String name=s.nextLine();
         System.out.println("Enter the age of the student:");
