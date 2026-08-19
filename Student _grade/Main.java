@@ -11,13 +11,14 @@ public class Main{
         String subject=s.next();
         System.out.println("Enter the marks of the student:");
         int marks=s.nextInt();
-        Student s=new Student();
-        Student.setName(name);
-        Student.setAge(age);
-        Student.setSubject(subject);
-        Student.setMarks(marks);
-        Student.calculateGrade();
-        Student.display();
+        student s=new Student();
+        student.setName(name);
+        student.setAge(age);
+        student.setSubject(subject);
+        student.setMarks(marks);
+        student.calculateGrade();
+        student.display();
+        s.close();
     }
 
 }

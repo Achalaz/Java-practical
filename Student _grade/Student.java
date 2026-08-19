@@ -21,16 +21,16 @@ public class Student{
         this.grade=grade;
     }
     void calculateGrade(){
-        if(grade>=90){
+        if(Marks >=90){
             this.grade="A";
         }
-        else if(grade>=80){
+        else if(Marks>=80){
             this.grade="B";
         }
-        else if(grade>=70){
+        else if(Marks>=70){
             this.grade="C";
         }
-        else if(grade>=60){
+        else if(Marks>=60){
             this.grade="D";
         }
         else{
