@@ -20,6 +20,9 @@ public class Student{
     void setGrade(String grade){
         this.grade=grade;
     }
+    void setMarks(int marks){
+        this.Marks=marks;
+    }
     void calculateGrade(){
         if(Marks >=90){
             this.grade="A";

@@ -11,7 +11,7 @@ public class Main{
         String subject=s.next();
         System.out.println("Enter the marks of the student:");
         int marks=s.nextInt();
-        student s=new Student();
+        
         student.setName(name);
         student.setAge(age);
         student.setSubject(subject);
