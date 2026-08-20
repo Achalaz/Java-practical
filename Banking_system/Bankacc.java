@@ -6,7 +6,7 @@ public class Bankacc{
     Banckacc(String accontNum,String accountholder){
         this.accountNum=accontNum;
         this.accountholder=accountholder;
-        this balence=0;
+        this.balence=0;
     }
     //deposit
     public void deposit(double amount){
